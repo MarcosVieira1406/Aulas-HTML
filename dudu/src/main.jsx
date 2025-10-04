@@ -5,6 +5,7 @@ import App from './App.jsx'
 import Primeirocomponente from './components/Primeirocomponente.jsx'
 import Mensagem from './components/Mensagem.jsx'
 import MensagemProps from './components/MensagemProps.jsx'
+import Contador from './components/Contador'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,5 +14,6 @@ createRoot(document.getElementById('root')).render(
     <Mensagem título="Olá Marcos" subtítulo="Esse é um exemplo de props no React" />
     <MensagemProps titulo="Oficina" subtitulo="React" />
     <MensagemProps titulo="Oficina React" subtitulo="Turma Noite" />
+    <Contador />
   </StrictMode>,
 )
